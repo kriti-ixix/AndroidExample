@@ -9,17 +9,18 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Example">
-        <activity android:name=".SplashScreen">
+        <activity android:name=".SignUp">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".HomeActivity" />
-        <activity android:name=".Login">
+        <activity android:name=".SplashScreen">
         </activity>
-        <activity android:name=".CurrencyConverter"></activity>
+        <activity android:name=".HomeActivity" />
+        <activity android:name=".Login"></activity>
+        <activity android:name=".CurrencyConverter" />
         <activity android:name=".NumberGuessingGame" />
         <activity android:name=".Calculator" />
         <activity android:name=".MainActivity" />
