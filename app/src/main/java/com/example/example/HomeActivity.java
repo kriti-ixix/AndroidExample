@@ -44,4 +44,10 @@ public class HomeActivity extends AppCompatActivity {
 
         return true;
     }
+
+    @Override
+    public void onBackPressed()
+    {
+        //AlertDialog asking if the user wants to quit
+    }
 }
